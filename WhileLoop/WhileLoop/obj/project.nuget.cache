@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "YMCkQazgnfFC3Bf+x9eQtjQIYjrNO5XQq+2/GdRBHQkBtB9ME3PnwdzwS0wl4tEic4KviVjBqAAtfZ1x6GTrog==",
+  "success": true,
+  "projectFilePath": "D:\\Coding\\CourseNETCore\\WhileLoop\\WhileLoop\\WhileLoop.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\franc\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

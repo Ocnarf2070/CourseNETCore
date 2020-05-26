@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xjHYPGoRGOIH6ObLAs9nQTS02RHfCtQ5FlVaQlQF5MtrDLCJ5mgemESk3EDEX3FWTmXyXt6dmc4jbIYUgbNmkQ==",
+  "success": true,
+  "projectFilePath": "D:\\Coding\\CourseNETCore\\PascalTriangle\\PascalTriangle\\PascalTriangle.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\franc\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

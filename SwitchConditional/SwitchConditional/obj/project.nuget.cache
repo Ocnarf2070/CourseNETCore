@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xoT2E3RqOIcrAXRMpQFFOSQPU7R++eTffSIN9X8ihepId0EfoJAdrfoWKTvAS0Fm866TTjF1LMTFJPI2NPyQtg==",
+  "success": true,
+  "projectFilePath": "D:\\Coding\\CourseNETCore\\SwitchConditional\\SwitchConditional\\SwitchConditional.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\franc\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

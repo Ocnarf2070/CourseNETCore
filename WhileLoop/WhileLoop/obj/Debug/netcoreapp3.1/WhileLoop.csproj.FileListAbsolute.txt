@@ -1,0 +1,13 @@
+D:\Coding\CourseNETCore\WhileLoop\WhileLoop\bin\Debug\netcoreapp3.1\WhileLoop.exe
+D:\Coding\CourseNETCore\WhileLoop\WhileLoop\bin\Debug\netcoreapp3.1\WhileLoop.deps.json
+D:\Coding\CourseNETCore\WhileLoop\WhileLoop\bin\Debug\netcoreapp3.1\WhileLoop.runtimeconfig.json
+D:\Coding\CourseNETCore\WhileLoop\WhileLoop\bin\Debug\netcoreapp3.1\WhileLoop.runtimeconfig.dev.json
+D:\Coding\CourseNETCore\WhileLoop\WhileLoop\bin\Debug\netcoreapp3.1\WhileLoop.dll
+D:\Coding\CourseNETCore\WhileLoop\WhileLoop\bin\Debug\netcoreapp3.1\WhileLoop.pdb
+D:\Coding\CourseNETCore\WhileLoop\WhileLoop\obj\Debug\netcoreapp3.1\WhileLoop.AssemblyInfoInputs.cache
+D:\Coding\CourseNETCore\WhileLoop\WhileLoop\obj\Debug\netcoreapp3.1\WhileLoop.AssemblyInfo.cs
+D:\Coding\CourseNETCore\WhileLoop\WhileLoop\obj\Debug\netcoreapp3.1\WhileLoop.csproj.CoreCompileInputs.cache
+D:\Coding\CourseNETCore\WhileLoop\WhileLoop\obj\Debug\netcoreapp3.1\WhileLoop.dll
+D:\Coding\CourseNETCore\WhileLoop\WhileLoop\obj\Debug\netcoreapp3.1\WhileLoop.pdb
+D:\Coding\CourseNETCore\WhileLoop\WhileLoop\obj\Debug\netcoreapp3.1\WhileLoop.genruntimeconfig.cache
+D:\Coding\CourseNETCore\WhileLoop\WhileLoop\obj\Debug\netcoreapp3.1\WhileLoop.csprojAssemblyReference.cache

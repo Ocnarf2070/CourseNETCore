@@ -1,0 +1,13 @@
+D:\Coding\CourseNETCore\Operators\Operators\bin\Debug\netcoreapp3.1\Operators.exe
+D:\Coding\CourseNETCore\Operators\Operators\bin\Debug\netcoreapp3.1\Operators.deps.json
+D:\Coding\CourseNETCore\Operators\Operators\bin\Debug\netcoreapp3.1\Operators.runtimeconfig.json
+D:\Coding\CourseNETCore\Operators\Operators\bin\Debug\netcoreapp3.1\Operators.runtimeconfig.dev.json
+D:\Coding\CourseNETCore\Operators\Operators\bin\Debug\netcoreapp3.1\Operators.dll
+D:\Coding\CourseNETCore\Operators\Operators\bin\Debug\netcoreapp3.1\Operators.pdb
+D:\Coding\CourseNETCore\Operators\Operators\obj\Debug\netcoreapp3.1\Operators.AssemblyInfoInputs.cache
+D:\Coding\CourseNETCore\Operators\Operators\obj\Debug\netcoreapp3.1\Operators.AssemblyInfo.cs
+D:\Coding\CourseNETCore\Operators\Operators\obj\Debug\netcoreapp3.1\Operators.csproj.CoreCompileInputs.cache
+D:\Coding\CourseNETCore\Operators\Operators\obj\Debug\netcoreapp3.1\Operators.dll
+D:\Coding\CourseNETCore\Operators\Operators\obj\Debug\netcoreapp3.1\Operators.pdb
+D:\Coding\CourseNETCore\Operators\Operators\obj\Debug\netcoreapp3.1\Operators.genruntimeconfig.cache
+D:\Coding\CourseNETCore\Operators\Operators\obj\Debug\netcoreapp3.1\Operators.csprojAssemblyReference.cache

@@ -1,0 +1,13 @@
+D:\Coding\CourseNETCore\ConditionalStatements\ConditionalStatements\bin\Debug\netcoreapp3.1\ConditionalStatements.exe
+D:\Coding\CourseNETCore\ConditionalStatements\ConditionalStatements\bin\Debug\netcoreapp3.1\ConditionalStatements.deps.json
+D:\Coding\CourseNETCore\ConditionalStatements\ConditionalStatements\bin\Debug\netcoreapp3.1\ConditionalStatements.runtimeconfig.json
+D:\Coding\CourseNETCore\ConditionalStatements\ConditionalStatements\bin\Debug\netcoreapp3.1\ConditionalStatements.runtimeconfig.dev.json
+D:\Coding\CourseNETCore\ConditionalStatements\ConditionalStatements\bin\Debug\netcoreapp3.1\ConditionalStatements.dll
+D:\Coding\CourseNETCore\ConditionalStatements\ConditionalStatements\bin\Debug\netcoreapp3.1\ConditionalStatements.pdb
+D:\Coding\CourseNETCore\ConditionalStatements\ConditionalStatements\obj\Debug\netcoreapp3.1\ConditionalStatements.csprojAssemblyReference.cache
+D:\Coding\CourseNETCore\ConditionalStatements\ConditionalStatements\obj\Debug\netcoreapp3.1\ConditionalStatements.AssemblyInfoInputs.cache
+D:\Coding\CourseNETCore\ConditionalStatements\ConditionalStatements\obj\Debug\netcoreapp3.1\ConditionalStatements.AssemblyInfo.cs
+D:\Coding\CourseNETCore\ConditionalStatements\ConditionalStatements\obj\Debug\netcoreapp3.1\ConditionalStatements.csproj.CoreCompileInputs.cache
+D:\Coding\CourseNETCore\ConditionalStatements\ConditionalStatements\obj\Debug\netcoreapp3.1\ConditionalStatements.dll
+D:\Coding\CourseNETCore\ConditionalStatements\ConditionalStatements\obj\Debug\netcoreapp3.1\ConditionalStatements.pdb
+D:\Coding\CourseNETCore\ConditionalStatements\ConditionalStatements\obj\Debug\netcoreapp3.1\ConditionalStatements.genruntimeconfig.cache
