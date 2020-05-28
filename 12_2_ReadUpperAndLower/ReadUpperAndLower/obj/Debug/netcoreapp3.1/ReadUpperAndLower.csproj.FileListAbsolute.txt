@@ -1,0 +1,13 @@
+D:\Coding\CourseNETCore\12_2_ReadUpperAndLower\ReadUpperAndLower\bin\Debug\netcoreapp3.1\ReadUpperAndLower.exe
+D:\Coding\CourseNETCore\12_2_ReadUpperAndLower\ReadUpperAndLower\bin\Debug\netcoreapp3.1\ReadUpperAndLower.deps.json
+D:\Coding\CourseNETCore\12_2_ReadUpperAndLower\ReadUpperAndLower\bin\Debug\netcoreapp3.1\ReadUpperAndLower.runtimeconfig.json
+D:\Coding\CourseNETCore\12_2_ReadUpperAndLower\ReadUpperAndLower\bin\Debug\netcoreapp3.1\ReadUpperAndLower.runtimeconfig.dev.json
+D:\Coding\CourseNETCore\12_2_ReadUpperAndLower\ReadUpperAndLower\bin\Debug\netcoreapp3.1\ReadUpperAndLower.dll
+D:\Coding\CourseNETCore\12_2_ReadUpperAndLower\ReadUpperAndLower\bin\Debug\netcoreapp3.1\ReadUpperAndLower.pdb
+D:\Coding\CourseNETCore\12_2_ReadUpperAndLower\ReadUpperAndLower\obj\Debug\netcoreapp3.1\ReadUpperAndLower.csprojAssemblyReference.cache
+D:\Coding\CourseNETCore\12_2_ReadUpperAndLower\ReadUpperAndLower\obj\Debug\netcoreapp3.1\ReadUpperAndLower.AssemblyInfoInputs.cache
+D:\Coding\CourseNETCore\12_2_ReadUpperAndLower\ReadUpperAndLower\obj\Debug\netcoreapp3.1\ReadUpperAndLower.AssemblyInfo.cs
+D:\Coding\CourseNETCore\12_2_ReadUpperAndLower\ReadUpperAndLower\obj\Debug\netcoreapp3.1\ReadUpperAndLower.csproj.CoreCompileInputs.cache
+D:\Coding\CourseNETCore\12_2_ReadUpperAndLower\ReadUpperAndLower\obj\Debug\netcoreapp3.1\ReadUpperAndLower.dll
+D:\Coding\CourseNETCore\12_2_ReadUpperAndLower\ReadUpperAndLower\obj\Debug\netcoreapp3.1\ReadUpperAndLower.pdb
+D:\Coding\CourseNETCore\12_2_ReadUpperAndLower\ReadUpperAndLower\obj\Debug\netcoreapp3.1\ReadUpperAndLower.genruntimeconfig.cache
