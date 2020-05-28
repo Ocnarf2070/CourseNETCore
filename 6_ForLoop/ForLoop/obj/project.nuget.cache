@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "DMJc2xx13P9ycAJbMWfvn452LuHUPbCFnaD8vC3pzKo1g27hqx9I2jY0fyjydZXJ7KOG1vMW3f3nFMfcSZjrVg==",
+  "success": true,
+  "projectFilePath": "D:\\Coding\\CourseNETCore\\6_ForLoop\\ForLoop\\ForLoop.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\franc\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ptvx+v2aTO/VI6DEpFsdVzxxKsC+Al4SiiCh4AJ3NT/+UTNDhRwDOEkvE0S1RoaF3Of+rIZQHoNS2yY2FD4p+g==",
+  "success": true,
+  "projectFilePath": "D:\\Coding\\CourseNETCore\\10_StringManipulation\\StringManipulation\\StringManipulation.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\franc\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
