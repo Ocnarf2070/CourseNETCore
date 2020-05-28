@@ -4,6 +4,7 @@ namespace ReadUpperAndLower
 {
     class Program
     {
+        //Atributes
         private String str;
         private String seeUppers = "";
         private String seeLowers = "";
@@ -13,6 +14,7 @@ namespace ReadUpperAndLower
         private string[] tempUp;
         private string[] tempLo;
 
+        //Constructor
         public Program(string str)
         {
             this.str = str;
@@ -68,7 +70,8 @@ namespace ReadUpperAndLower
             Console.Write("Write a line:");
             String str = Console.ReadLine();
             var prog = new Program(str);
-
+            Console.WriteLine("Uppercased characters are: " + prog.uppers());
+            Console.WriteLine("Lowercased characters are: " + prog.lowers());
 
         }
     }
