@@ -1,0 +1,13 @@
+D:\Coding\CourseNETCore\StringBuilderExamples\StringBuilderExamples\bin\Debug\netcoreapp3.1\StringBuilderExamples.exe
+D:\Coding\CourseNETCore\StringBuilderExamples\StringBuilderExamples\bin\Debug\netcoreapp3.1\StringBuilderExamples.deps.json
+D:\Coding\CourseNETCore\StringBuilderExamples\StringBuilderExamples\bin\Debug\netcoreapp3.1\StringBuilderExamples.runtimeconfig.json
+D:\Coding\CourseNETCore\StringBuilderExamples\StringBuilderExamples\bin\Debug\netcoreapp3.1\StringBuilderExamples.runtimeconfig.dev.json
+D:\Coding\CourseNETCore\StringBuilderExamples\StringBuilderExamples\bin\Debug\netcoreapp3.1\StringBuilderExamples.dll
+D:\Coding\CourseNETCore\StringBuilderExamples\StringBuilderExamples\bin\Debug\netcoreapp3.1\StringBuilderExamples.pdb
+D:\Coding\CourseNETCore\StringBuilderExamples\StringBuilderExamples\obj\Debug\netcoreapp3.1\StringBuilderExamples.csprojAssemblyReference.cache
+D:\Coding\CourseNETCore\StringBuilderExamples\StringBuilderExamples\obj\Debug\netcoreapp3.1\StringBuilderExamples.AssemblyInfoInputs.cache
+D:\Coding\CourseNETCore\StringBuilderExamples\StringBuilderExamples\obj\Debug\netcoreapp3.1\StringBuilderExamples.AssemblyInfo.cs
+D:\Coding\CourseNETCore\StringBuilderExamples\StringBuilderExamples\obj\Debug\netcoreapp3.1\StringBuilderExamples.csproj.CoreCompileInputs.cache
+D:\Coding\CourseNETCore\StringBuilderExamples\StringBuilderExamples\obj\Debug\netcoreapp3.1\StringBuilderExamples.dll
+D:\Coding\CourseNETCore\StringBuilderExamples\StringBuilderExamples\obj\Debug\netcoreapp3.1\StringBuilderExamples.pdb
+D:\Coding\CourseNETCore\StringBuilderExamples\StringBuilderExamples\obj\Debug\netcoreapp3.1\StringBuilderExamples.genruntimeconfig.cache
