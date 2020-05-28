@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Coding\\CourseNETCore\\12_2_GlobalVariables\\12_2_GlobalVariables\\12_2_GlobalVariables.csproj",
-      "projectName": "12_2_GlobalVariables",
-      "projectPath": "D:\\Coding\\CourseNETCore\\12_2_GlobalVariables\\12_2_GlobalVariables\\12_2_GlobalVariables.csproj",
+      "projectUniqueName": "D:\\Coding\\CourseNETCore\\12_2_ReadUpperAndLower\\ReadUpperAndLower\\ReadUpperAndLower.csproj",
+      "projectName": "ReadUpperAndLower",
+      "projectPath": "D:\\Coding\\CourseNETCore\\12_2_ReadUpperAndLower\\ReadUpperAndLower\\ReadUpperAndLower.csproj",
       "packagesPath": "C:\\Users\\franc\\.nuget\\packages\\",
-      "outputPath": "D:\\Coding\\CourseNETCore\\12_2_GlobalVariables\\12_2_GlobalVariables\\obj\\",
+      "outputPath": "D:\\Coding\\CourseNETCore\\12_2_ReadUpperAndLower\\ReadUpperAndLower\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Microsoft\\Xamarin\\NuGet\\",

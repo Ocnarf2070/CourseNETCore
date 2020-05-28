@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("12_2_GlobalVariables")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("ReadUpperAndLower")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("12_2_GlobalVariables")]
-[assembly: System.Reflection.AssemblyTitleAttribute("12_2_GlobalVariables")]
+[assembly: System.Reflection.AssemblyProductAttribute("ReadUpperAndLower")]
+[assembly: System.Reflection.AssemblyTitleAttribute("ReadUpperAndLower")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
