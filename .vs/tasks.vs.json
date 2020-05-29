@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "tarea-12_2_BetterReadUpperAndLower",
+      "appliesTo": "12_2_BetterReadUpperAndLower/",
+      "type": "launch"
+    }
+  ]
+}
