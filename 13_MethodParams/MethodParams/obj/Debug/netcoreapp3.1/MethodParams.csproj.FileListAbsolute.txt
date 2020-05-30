@@ -1,0 +1,13 @@
+D:\Coding\CourseNETCore\13_MethodParams\MethodParams\bin\Debug\netcoreapp3.1\MethodParams.exe
+D:\Coding\CourseNETCore\13_MethodParams\MethodParams\bin\Debug\netcoreapp3.1\MethodParams.deps.json
+D:\Coding\CourseNETCore\13_MethodParams\MethodParams\bin\Debug\netcoreapp3.1\MethodParams.runtimeconfig.json
+D:\Coding\CourseNETCore\13_MethodParams\MethodParams\bin\Debug\netcoreapp3.1\MethodParams.runtimeconfig.dev.json
+D:\Coding\CourseNETCore\13_MethodParams\MethodParams\bin\Debug\netcoreapp3.1\MethodParams.dll
+D:\Coding\CourseNETCore\13_MethodParams\MethodParams\bin\Debug\netcoreapp3.1\MethodParams.pdb
+D:\Coding\CourseNETCore\13_MethodParams\MethodParams\obj\Debug\netcoreapp3.1\MethodParams.csprojAssemblyReference.cache
+D:\Coding\CourseNETCore\13_MethodParams\MethodParams\obj\Debug\netcoreapp3.1\MethodParams.AssemblyInfoInputs.cache
+D:\Coding\CourseNETCore\13_MethodParams\MethodParams\obj\Debug\netcoreapp3.1\MethodParams.AssemblyInfo.cs
+D:\Coding\CourseNETCore\13_MethodParams\MethodParams\obj\Debug\netcoreapp3.1\MethodParams.csproj.CoreCompileInputs.cache
+D:\Coding\CourseNETCore\13_MethodParams\MethodParams\obj\Debug\netcoreapp3.1\MethodParams.dll
+D:\Coding\CourseNETCore\13_MethodParams\MethodParams\obj\Debug\netcoreapp3.1\MethodParams.pdb
+D:\Coding\CourseNETCore\13_MethodParams\MethodParams\obj\Debug\netcoreapp3.1\MethodParams.genruntimeconfig.cache
