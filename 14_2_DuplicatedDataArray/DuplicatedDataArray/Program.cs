@@ -20,15 +20,14 @@ namespace DuplicatedDataArray
                         if (number(array[i])) aux[i] = array[i];
                     }
                 }
-                if (aux[i] != 0) Console.WriteLine($"{aux[i]} se repite: {count}");
+                if (aux[i] != 0) Console.WriteLine($"{aux[i]} repeats {count} time{isPlural(count)}");
             }
+            string isPlural(int num) => num == 1 ? "" : "s";
             bool number(int num)
             {
-                for (int i = 0; i < aux.Length; i++)
-                {
-                    if (aux[i] == num) return false;
-                }
-                return true;
+                int i = 0;
+                while (i < aux.Length && aux[i] != num) i++;
+                return i >= aux.Length;
             }
             
         }
