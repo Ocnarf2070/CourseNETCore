@@ -1,0 +1,12 @@
+D:\Coding\CourseNETCore\14_2_DuplicatedDataArray\DuplicatedDataArray\bin\Debug\netcoreapp3.1\DuplicatedDataArray.exe
+D:\Coding\CourseNETCore\14_2_DuplicatedDataArray\DuplicatedDataArray\bin\Debug\netcoreapp3.1\DuplicatedDataArray.deps.json
+D:\Coding\CourseNETCore\14_2_DuplicatedDataArray\DuplicatedDataArray\bin\Debug\netcoreapp3.1\DuplicatedDataArray.runtimeconfig.json
+D:\Coding\CourseNETCore\14_2_DuplicatedDataArray\DuplicatedDataArray\bin\Debug\netcoreapp3.1\DuplicatedDataArray.runtimeconfig.dev.json
+D:\Coding\CourseNETCore\14_2_DuplicatedDataArray\DuplicatedDataArray\bin\Debug\netcoreapp3.1\DuplicatedDataArray.dll
+D:\Coding\CourseNETCore\14_2_DuplicatedDataArray\DuplicatedDataArray\bin\Debug\netcoreapp3.1\DuplicatedDataArray.pdb
+D:\Coding\CourseNETCore\14_2_DuplicatedDataArray\DuplicatedDataArray\obj\Debug\netcoreapp3.1\DuplicatedDataArray.AssemblyInfoInputs.cache
+D:\Coding\CourseNETCore\14_2_DuplicatedDataArray\DuplicatedDataArray\obj\Debug\netcoreapp3.1\DuplicatedDataArray.AssemblyInfo.cs
+D:\Coding\CourseNETCore\14_2_DuplicatedDataArray\DuplicatedDataArray\obj\Debug\netcoreapp3.1\DuplicatedDataArray.csproj.CoreCompileInputs.cache
+D:\Coding\CourseNETCore\14_2_DuplicatedDataArray\DuplicatedDataArray\obj\Debug\netcoreapp3.1\DuplicatedDataArray.dll
+D:\Coding\CourseNETCore\14_2_DuplicatedDataArray\DuplicatedDataArray\obj\Debug\netcoreapp3.1\DuplicatedDataArray.pdb
+D:\Coding\CourseNETCore\14_2_DuplicatedDataArray\DuplicatedDataArray\obj\Debug\netcoreapp3.1\DuplicatedDataArray.genruntimeconfig.cache
