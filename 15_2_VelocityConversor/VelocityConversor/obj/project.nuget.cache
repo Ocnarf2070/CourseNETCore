@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6Sfy7GbkpJpRi50WRP0RagFyOmKrn3L95NbbyYBILMaiLa538tKrQQlkdKkVKOH4gh47sAJWSMODUlSdkRbAnA==",
+  "success": true,
+  "projectFilePath": "D:\\Coding\\CourseNETCore\\15_2_VelocityConversor\\VelocityConversor\\VelocityConversor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\franc\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
