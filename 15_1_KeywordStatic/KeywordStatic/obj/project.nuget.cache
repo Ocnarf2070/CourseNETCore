@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "UstSTzBUjn06t3HMpq8zrolW4dbH+2+nEAvZZvEZoD5HN95PaYGBryivBW3wZOLq/iRcFHbS5oOB79RU5c+xMw==",
+  "success": true,
+  "projectFilePath": "D:\\Coding\\CourseNETCore\\15_1_KeywordStatic\\KeywordStatic\\KeywordStatic.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\franc\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

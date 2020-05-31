@@ -1,0 +1,12 @@
+D:\Coding\CourseNETCore\15_1_KeywordStatic\KeywordStatic\bin\Debug\netcoreapp3.1\KeywordStatic.exe
+D:\Coding\CourseNETCore\15_1_KeywordStatic\KeywordStatic\bin\Debug\netcoreapp3.1\KeywordStatic.deps.json
+D:\Coding\CourseNETCore\15_1_KeywordStatic\KeywordStatic\bin\Debug\netcoreapp3.1\KeywordStatic.runtimeconfig.json
+D:\Coding\CourseNETCore\15_1_KeywordStatic\KeywordStatic\bin\Debug\netcoreapp3.1\KeywordStatic.runtimeconfig.dev.json
+D:\Coding\CourseNETCore\15_1_KeywordStatic\KeywordStatic\bin\Debug\netcoreapp3.1\KeywordStatic.dll
+D:\Coding\CourseNETCore\15_1_KeywordStatic\KeywordStatic\bin\Debug\netcoreapp3.1\KeywordStatic.pdb
+D:\Coding\CourseNETCore\15_1_KeywordStatic\KeywordStatic\obj\Debug\netcoreapp3.1\KeywordStatic.AssemblyInfoInputs.cache
+D:\Coding\CourseNETCore\15_1_KeywordStatic\KeywordStatic\obj\Debug\netcoreapp3.1\KeywordStatic.AssemblyInfo.cs
+D:\Coding\CourseNETCore\15_1_KeywordStatic\KeywordStatic\obj\Debug\netcoreapp3.1\KeywordStatic.csproj.CoreCompileInputs.cache
+D:\Coding\CourseNETCore\15_1_KeywordStatic\KeywordStatic\obj\Debug\netcoreapp3.1\KeywordStatic.dll
+D:\Coding\CourseNETCore\15_1_KeywordStatic\KeywordStatic\obj\Debug\netcoreapp3.1\KeywordStatic.pdb
+D:\Coding\CourseNETCore\15_1_KeywordStatic\KeywordStatic\obj\Debug\netcoreapp3.1\KeywordStatic.genruntimeconfig.cache
