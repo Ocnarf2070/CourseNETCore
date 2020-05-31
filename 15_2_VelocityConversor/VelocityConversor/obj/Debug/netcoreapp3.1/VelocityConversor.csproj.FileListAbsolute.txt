@@ -1,0 +1,13 @@
+D:\Coding\CourseNETCore\15_2_VelocityConversor\VelocityConversor\obj\Debug\netcoreapp3.1\VelocityConversor.csprojAssemblyReference.cache
+D:\Coding\CourseNETCore\15_2_VelocityConversor\VelocityConversor\obj\Debug\netcoreapp3.1\VelocityConversor.AssemblyInfoInputs.cache
+D:\Coding\CourseNETCore\15_2_VelocityConversor\VelocityConversor\obj\Debug\netcoreapp3.1\VelocityConversor.AssemblyInfo.cs
+D:\Coding\CourseNETCore\15_2_VelocityConversor\VelocityConversor\obj\Debug\netcoreapp3.1\VelocityConversor.csproj.CoreCompileInputs.cache
+D:\Coding\CourseNETCore\15_2_VelocityConversor\VelocityConversor\bin\Debug\netcoreapp3.1\VelocityConversor.exe
+D:\Coding\CourseNETCore\15_2_VelocityConversor\VelocityConversor\bin\Debug\netcoreapp3.1\VelocityConversor.deps.json
+D:\Coding\CourseNETCore\15_2_VelocityConversor\VelocityConversor\bin\Debug\netcoreapp3.1\VelocityConversor.runtimeconfig.json
+D:\Coding\CourseNETCore\15_2_VelocityConversor\VelocityConversor\bin\Debug\netcoreapp3.1\VelocityConversor.runtimeconfig.dev.json
+D:\Coding\CourseNETCore\15_2_VelocityConversor\VelocityConversor\bin\Debug\netcoreapp3.1\VelocityConversor.dll
+D:\Coding\CourseNETCore\15_2_VelocityConversor\VelocityConversor\bin\Debug\netcoreapp3.1\VelocityConversor.pdb
+D:\Coding\CourseNETCore\15_2_VelocityConversor\VelocityConversor\obj\Debug\netcoreapp3.1\VelocityConversor.dll
+D:\Coding\CourseNETCore\15_2_VelocityConversor\VelocityConversor\obj\Debug\netcoreapp3.1\VelocityConversor.pdb
+D:\Coding\CourseNETCore\15_2_VelocityConversor\VelocityConversor\obj\Debug\netcoreapp3.1\VelocityConversor.genruntimeconfig.cache
