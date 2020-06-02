@@ -1,0 +1,13 @@
+D:\Coding\CourseNETCore\17_1_CSharpPropieties\CSharpPropieties\bin\Debug\netcoreapp3.1\CSharpPropieties.exe
+D:\Coding\CourseNETCore\17_1_CSharpPropieties\CSharpPropieties\bin\Debug\netcoreapp3.1\CSharpPropieties.deps.json
+D:\Coding\CourseNETCore\17_1_CSharpPropieties\CSharpPropieties\bin\Debug\netcoreapp3.1\CSharpPropieties.runtimeconfig.json
+D:\Coding\CourseNETCore\17_1_CSharpPropieties\CSharpPropieties\bin\Debug\netcoreapp3.1\CSharpPropieties.runtimeconfig.dev.json
+D:\Coding\CourseNETCore\17_1_CSharpPropieties\CSharpPropieties\bin\Debug\netcoreapp3.1\CSharpPropieties.dll
+D:\Coding\CourseNETCore\17_1_CSharpPropieties\CSharpPropieties\bin\Debug\netcoreapp3.1\CSharpPropieties.pdb
+D:\Coding\CourseNETCore\17_1_CSharpPropieties\CSharpPropieties\obj\Debug\netcoreapp3.1\CSharpPropieties.csprojAssemblyReference.cache
+D:\Coding\CourseNETCore\17_1_CSharpPropieties\CSharpPropieties\obj\Debug\netcoreapp3.1\CSharpPropieties.AssemblyInfoInputs.cache
+D:\Coding\CourseNETCore\17_1_CSharpPropieties\CSharpPropieties\obj\Debug\netcoreapp3.1\CSharpPropieties.AssemblyInfo.cs
+D:\Coding\CourseNETCore\17_1_CSharpPropieties\CSharpPropieties\obj\Debug\netcoreapp3.1\CSharpPropieties.csproj.CoreCompileInputs.cache
+D:\Coding\CourseNETCore\17_1_CSharpPropieties\CSharpPropieties\obj\Debug\netcoreapp3.1\CSharpPropieties.dll
+D:\Coding\CourseNETCore\17_1_CSharpPropieties\CSharpPropieties\obj\Debug\netcoreapp3.1\CSharpPropieties.pdb
+D:\Coding\CourseNETCore\17_1_CSharpPropieties\CSharpPropieties\obj\Debug\netcoreapp3.1\CSharpPropieties.genruntimeconfig.cache
