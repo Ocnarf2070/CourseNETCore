@@ -1,0 +1,13 @@
+D:\Coding\CourseNETCore\17_2_School\School\bin\Debug\netcoreapp3.1\School.exe
+D:\Coding\CourseNETCore\17_2_School\School\bin\Debug\netcoreapp3.1\School.deps.json
+D:\Coding\CourseNETCore\17_2_School\School\bin\Debug\netcoreapp3.1\School.runtimeconfig.json
+D:\Coding\CourseNETCore\17_2_School\School\bin\Debug\netcoreapp3.1\School.runtimeconfig.dev.json
+D:\Coding\CourseNETCore\17_2_School\School\bin\Debug\netcoreapp3.1\School.dll
+D:\Coding\CourseNETCore\17_2_School\School\bin\Debug\netcoreapp3.1\School.pdb
+D:\Coding\CourseNETCore\17_2_School\School\obj\Debug\netcoreapp3.1\School.csprojAssemblyReference.cache
+D:\Coding\CourseNETCore\17_2_School\School\obj\Debug\netcoreapp3.1\School.AssemblyInfoInputs.cache
+D:\Coding\CourseNETCore\17_2_School\School\obj\Debug\netcoreapp3.1\School.AssemblyInfo.cs
+D:\Coding\CourseNETCore\17_2_School\School\obj\Debug\netcoreapp3.1\School.csproj.CoreCompileInputs.cache
+D:\Coding\CourseNETCore\17_2_School\School\obj\Debug\netcoreapp3.1\School.dll
+D:\Coding\CourseNETCore\17_2_School\School\obj\Debug\netcoreapp3.1\School.pdb
+D:\Coding\CourseNETCore\17_2_School\School\obj\Debug\netcoreapp3.1\School.genruntimeconfig.cache

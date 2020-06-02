@@ -5,10 +5,10 @@ using System.Text;
 
 namespace School
 {
-    public class School
+    public class School_
     {
         private List<Studients> studients;
-        public School()
+        public School_()
         {
             studients = new List<Studients>();
         }
@@ -21,7 +21,13 @@ namespace School
         {
             int i = 0;
             while (i < studients.Count && !studients[i].Name.Equals(name)) i++;
-            return i < studients.Count;
+            bool found = i < studients.Count;
+            if (found)
+                Console.WriteLine("Name: {0}\n" +
+                    "Age: {1}\n" +
+                    "Qualification: {2}",studients[i-1].Name, studients[i-1].Age, studients[i-1].Score);
+            else Console.WriteLine($"Name {name} not found.\nPlease try again.");
+            return !found;
         }
             
         
