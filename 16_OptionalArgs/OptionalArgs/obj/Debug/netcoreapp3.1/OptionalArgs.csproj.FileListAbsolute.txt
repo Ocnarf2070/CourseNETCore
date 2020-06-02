@@ -1,0 +1,13 @@
+D:\Coding\CourseNETCore\16_OptionalArgs\OptionalArgs\bin\Debug\netcoreapp3.1\OptionalArgs.exe
+D:\Coding\CourseNETCore\16_OptionalArgs\OptionalArgs\bin\Debug\netcoreapp3.1\OptionalArgs.deps.json
+D:\Coding\CourseNETCore\16_OptionalArgs\OptionalArgs\bin\Debug\netcoreapp3.1\OptionalArgs.runtimeconfig.json
+D:\Coding\CourseNETCore\16_OptionalArgs\OptionalArgs\bin\Debug\netcoreapp3.1\OptionalArgs.runtimeconfig.dev.json
+D:\Coding\CourseNETCore\16_OptionalArgs\OptionalArgs\bin\Debug\netcoreapp3.1\OptionalArgs.dll
+D:\Coding\CourseNETCore\16_OptionalArgs\OptionalArgs\bin\Debug\netcoreapp3.1\OptionalArgs.pdb
+D:\Coding\CourseNETCore\16_OptionalArgs\OptionalArgs\obj\Debug\netcoreapp3.1\OptionalArgs.csprojAssemblyReference.cache
+D:\Coding\CourseNETCore\16_OptionalArgs\OptionalArgs\obj\Debug\netcoreapp3.1\OptionalArgs.AssemblyInfoInputs.cache
+D:\Coding\CourseNETCore\16_OptionalArgs\OptionalArgs\obj\Debug\netcoreapp3.1\OptionalArgs.AssemblyInfo.cs
+D:\Coding\CourseNETCore\16_OptionalArgs\OptionalArgs\obj\Debug\netcoreapp3.1\OptionalArgs.csproj.CoreCompileInputs.cache
+D:\Coding\CourseNETCore\16_OptionalArgs\OptionalArgs\obj\Debug\netcoreapp3.1\OptionalArgs.dll
+D:\Coding\CourseNETCore\16_OptionalArgs\OptionalArgs\obj\Debug\netcoreapp3.1\OptionalArgs.pdb
+D:\Coding\CourseNETCore\16_OptionalArgs\OptionalArgs\obj\Debug\netcoreapp3.1\OptionalArgs.genruntimeconfig.cache
