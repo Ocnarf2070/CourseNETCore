@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "CzuJJntjODkAt1uVKq49iF6Jmi5G0qnmje39PqmhMLfhub45R43qRNYmBSGYFZL3Kihr4P+fs6XVA2D2vNiAzg==",
+  "success": true,
+  "projectFilePath": "D:\\Coding\\CourseNETCore\\19_LinkedListNode\\LinkedListNode\\LinkedListNode.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\franc\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

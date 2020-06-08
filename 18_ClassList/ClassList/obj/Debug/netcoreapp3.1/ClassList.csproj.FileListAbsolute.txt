@@ -1,0 +1,13 @@
+D:\Coding\CourseNETCore\18_ClassList\ClassList\bin\Debug\netcoreapp3.1\ClassList.exe
+D:\Coding\CourseNETCore\18_ClassList\ClassList\bin\Debug\netcoreapp3.1\ClassList.deps.json
+D:\Coding\CourseNETCore\18_ClassList\ClassList\bin\Debug\netcoreapp3.1\ClassList.runtimeconfig.json
+D:\Coding\CourseNETCore\18_ClassList\ClassList\bin\Debug\netcoreapp3.1\ClassList.runtimeconfig.dev.json
+D:\Coding\CourseNETCore\18_ClassList\ClassList\bin\Debug\netcoreapp3.1\ClassList.dll
+D:\Coding\CourseNETCore\18_ClassList\ClassList\bin\Debug\netcoreapp3.1\ClassList.pdb
+D:\Coding\CourseNETCore\18_ClassList\ClassList\obj\Debug\netcoreapp3.1\ClassList.csprojAssemblyReference.cache
+D:\Coding\CourseNETCore\18_ClassList\ClassList\obj\Debug\netcoreapp3.1\ClassList.AssemblyInfoInputs.cache
+D:\Coding\CourseNETCore\18_ClassList\ClassList\obj\Debug\netcoreapp3.1\ClassList.AssemblyInfo.cs
+D:\Coding\CourseNETCore\18_ClassList\ClassList\obj\Debug\netcoreapp3.1\ClassList.csproj.CoreCompileInputs.cache
+D:\Coding\CourseNETCore\18_ClassList\ClassList\obj\Debug\netcoreapp3.1\ClassList.dll
+D:\Coding\CourseNETCore\18_ClassList\ClassList\obj\Debug\netcoreapp3.1\ClassList.pdb
+D:\Coding\CourseNETCore\18_ClassList\ClassList\obj\Debug\netcoreapp3.1\ClassList.genruntimeconfig.cache
