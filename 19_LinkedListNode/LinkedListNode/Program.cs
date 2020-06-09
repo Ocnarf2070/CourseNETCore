@@ -14,6 +14,21 @@ namespace LinkedListNode
                 list.Add(item);
                 Console.WriteLine(list);
             }
+            list.Delete(5);
+            Console.WriteLine(list);
+            list.DeleteLast();
+            Console.WriteLine(list);
+            list.DeleteByPosition(30);
+            list.DeleteByPosition(2);
+            Console.WriteLine(list);
+            Console.WriteLine(list.Search(3));
+            Console.WriteLine(list.Search(5));
+            Console.WriteLine(list.Search(2));
+            Console.WriteLine(list.Search(4));
+            list.Replace(3, 6);
+            Console.WriteLine(list);
+
+
         }
         public static void EmptyList(LinkedListN list)
         {

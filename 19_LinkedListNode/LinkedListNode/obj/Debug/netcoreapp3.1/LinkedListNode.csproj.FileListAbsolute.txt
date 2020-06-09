@@ -1,0 +1,13 @@
+D:\Coding\CourseNETCore\19_LinkedListNode\LinkedListNode\bin\Debug\netcoreapp3.1\LinkedListNode.exe
+D:\Coding\CourseNETCore\19_LinkedListNode\LinkedListNode\bin\Debug\netcoreapp3.1\LinkedListNode.deps.json
+D:\Coding\CourseNETCore\19_LinkedListNode\LinkedListNode\bin\Debug\netcoreapp3.1\LinkedListNode.runtimeconfig.json
+D:\Coding\CourseNETCore\19_LinkedListNode\LinkedListNode\bin\Debug\netcoreapp3.1\LinkedListNode.runtimeconfig.dev.json
+D:\Coding\CourseNETCore\19_LinkedListNode\LinkedListNode\bin\Debug\netcoreapp3.1\LinkedListNode.dll
+D:\Coding\CourseNETCore\19_LinkedListNode\LinkedListNode\bin\Debug\netcoreapp3.1\LinkedListNode.pdb
+D:\Coding\CourseNETCore\19_LinkedListNode\LinkedListNode\obj\Debug\netcoreapp3.1\LinkedListNode.csprojAssemblyReference.cache
+D:\Coding\CourseNETCore\19_LinkedListNode\LinkedListNode\obj\Debug\netcoreapp3.1\LinkedListNode.AssemblyInfoInputs.cache
+D:\Coding\CourseNETCore\19_LinkedListNode\LinkedListNode\obj\Debug\netcoreapp3.1\LinkedListNode.AssemblyInfo.cs
+D:\Coding\CourseNETCore\19_LinkedListNode\LinkedListNode\obj\Debug\netcoreapp3.1\LinkedListNode.csproj.CoreCompileInputs.cache
+D:\Coding\CourseNETCore\19_LinkedListNode\LinkedListNode\obj\Debug\netcoreapp3.1\LinkedListNode.dll
+D:\Coding\CourseNETCore\19_LinkedListNode\LinkedListNode\obj\Debug\netcoreapp3.1\LinkedListNode.pdb
+D:\Coding\CourseNETCore\19_LinkedListNode\LinkedListNode\obj\Debug\netcoreapp3.1\LinkedListNode.genruntimeconfig.cache
