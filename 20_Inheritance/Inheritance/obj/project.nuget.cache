@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2t8WLbn22sqTdLegQYl/UIAM/i3PTduuWT99VxRaCd5m1P+DerjT5pmaX7sEQqnf83FU5XO9n1i/taZ6ZyCtdg==",
+  "success": true,
+  "projectFilePath": "D:\\Coding\\CourseNETCore\\20_Inheritance\\Inheritance\\Inheritance.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\franc\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,13 @@
+D:\Coding\CourseNETCore\20_Inheritance\Inheritance\bin\Debug\netcoreapp3.1\Inheritance.exe
+D:\Coding\CourseNETCore\20_Inheritance\Inheritance\bin\Debug\netcoreapp3.1\Inheritance.deps.json
+D:\Coding\CourseNETCore\20_Inheritance\Inheritance\bin\Debug\netcoreapp3.1\Inheritance.runtimeconfig.json
+D:\Coding\CourseNETCore\20_Inheritance\Inheritance\bin\Debug\netcoreapp3.1\Inheritance.runtimeconfig.dev.json
+D:\Coding\CourseNETCore\20_Inheritance\Inheritance\bin\Debug\netcoreapp3.1\Inheritance.dll
+D:\Coding\CourseNETCore\20_Inheritance\Inheritance\bin\Debug\netcoreapp3.1\Inheritance.pdb
+D:\Coding\CourseNETCore\20_Inheritance\Inheritance\obj\Debug\netcoreapp3.1\Inheritance.AssemblyInfoInputs.cache
+D:\Coding\CourseNETCore\20_Inheritance\Inheritance\obj\Debug\netcoreapp3.1\Inheritance.AssemblyInfo.cs
+D:\Coding\CourseNETCore\20_Inheritance\Inheritance\obj\Debug\netcoreapp3.1\Inheritance.csproj.CoreCompileInputs.cache
+D:\Coding\CourseNETCore\20_Inheritance\Inheritance\obj\Debug\netcoreapp3.1\Inheritance.dll
+D:\Coding\CourseNETCore\20_Inheritance\Inheritance\obj\Debug\netcoreapp3.1\Inheritance.pdb
+D:\Coding\CourseNETCore\20_Inheritance\Inheritance\obj\Debug\netcoreapp3.1\Inheritance.genruntimeconfig.cache
+D:\Coding\CourseNETCore\20_Inheritance\Inheritance\obj\Debug\netcoreapp3.1\Inheritance.csprojAssemblyReference.cache
