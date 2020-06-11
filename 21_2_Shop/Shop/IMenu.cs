@@ -6,6 +6,7 @@ namespace Shop
 {
     interface IMenu
     {
+        void fruits();
         void sweeties();
         void sales();
         double requestPayment();

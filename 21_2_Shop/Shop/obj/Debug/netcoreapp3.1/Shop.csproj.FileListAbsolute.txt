@@ -10,3 +10,4 @@ D:\Coding\CourseNETCore\21_2_Shop\Shop\obj\Debug\netcoreapp3.1\Shop.csproj.CoreC
 D:\Coding\CourseNETCore\21_2_Shop\Shop\obj\Debug\netcoreapp3.1\Shop.dll
 D:\Coding\CourseNETCore\21_2_Shop\Shop\obj\Debug\netcoreapp3.1\Shop.pdb
 D:\Coding\CourseNETCore\21_2_Shop\Shop\obj\Debug\netcoreapp3.1\Shop.genruntimeconfig.cache
+D:\Coding\CourseNETCore\21_2_Shop\Shop\obj\Debug\netcoreapp3.1\Shop.csprojAssemblyReference.cache
