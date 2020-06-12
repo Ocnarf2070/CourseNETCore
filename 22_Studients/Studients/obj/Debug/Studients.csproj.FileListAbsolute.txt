@@ -1,0 +1,10 @@
+D:\Coding\CourseNETCore\22_Studients\Studients\bin\Debug\Studients.exe.config
+D:\Coding\CourseNETCore\22_Studients\Studients\bin\Debug\Studients.exe
+D:\Coding\CourseNETCore\22_Studients\Studients\bin\Debug\Studients.pdb
+D:\Coding\CourseNETCore\22_Studients\Studients\obj\Debug\Studients.csprojAssemblyReference.cache
+D:\Coding\CourseNETCore\22_Studients\Studients\obj\Debug\Studients.Form1.resources
+D:\Coding\CourseNETCore\22_Studients\Studients\obj\Debug\Studients.Properties.Resources.resources
+D:\Coding\CourseNETCore\22_Studients\Studients\obj\Debug\Studients.csproj.GenerateResource.cache
+D:\Coding\CourseNETCore\22_Studients\Studients\obj\Debug\Studients.csproj.CoreCompileInputs.cache
+D:\Coding\CourseNETCore\22_Studients\Studients\obj\Debug\Studients.exe
+D:\Coding\CourseNETCore\22_Studients\Studients\obj\Debug\Studients.pdb
