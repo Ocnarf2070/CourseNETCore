@@ -8,3 +8,6 @@ D:\Coding\CourseNETCore\22_Studients\Studients\obj\Debug\Studients.csproj.Genera
 D:\Coding\CourseNETCore\22_Studients\Studients\obj\Debug\Studients.csproj.CoreCompileInputs.cache
 D:\Coding\CourseNETCore\22_Studients\Studients\obj\Debug\Studients.exe
 D:\Coding\CourseNETCore\22_Studients\Studients\obj\Debug\Studients.pdb
+D:\Coding\CourseNETCore\22_Studients\Studients\bin\Debug\Controller.dll
+D:\Coding\CourseNETCore\22_Studients\Studients\bin\Debug\Controller.pdb
+D:\Coding\CourseNETCore\22_Studients\Studients\obj\Debug\Studients.csproj.CopyComplete

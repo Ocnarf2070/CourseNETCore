@@ -81,19 +81,22 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\baseline_add_white_18dp.png" />
+    <None Include="Resources\Add.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\baseline_cancel_white_18dp.png" />
+    <None Include="Resources\Cancel.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\baseline_delete_forever_white_18dp.png" />
+    <None Include="Resources\Delete_forever.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\outline_person_black_48dp.png" />
+    <None Include="Resources\Incognito.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\outline_person_black_48dp1.png" />
+    <ProjectReference Include="..\Controller\Controller.csproj">
+      <Project>{c22d33ca-6a2c-41d9-bd0c-75380643339d}</Project>
+      <Name>Controller</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
