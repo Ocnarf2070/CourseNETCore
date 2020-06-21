@@ -122,7 +122,7 @@ namespace Studients
 
         private void buttonAdd_Click(object sender, EventArgs e)
         {
-            studient.Register();
+            studient.RegisterStudient();
         }
     }
 }

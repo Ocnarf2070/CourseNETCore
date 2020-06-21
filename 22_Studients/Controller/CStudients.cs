@@ -1,4 +1,6 @@
 ﻿using Controller.Library;
+using Data;
+using LinqToDB;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -9,11 +11,15 @@ using System.Windows.Forms;
 
 namespace Controller
 {
-    public class CStudients : Libraries
+    public class CStudients:Libraries
     {
+        //private Libraries libraries = new Libraries();
+        //private Conection database = new Conection();
+
         private List<TextBox> listTextBox;
         private List<Label> listLabel;
         private PictureBox image;
+
 
         public CStudients(List<TextBox> listTextBox, List<Label> listLabel, Object[] objects)
         {
@@ -22,7 +28,7 @@ namespace Controller
             this.image = (PictureBox)objects[0];
         }
 
-        public void Register()
+        public void RegisterStudient()
         {
             if (listTextBox.Select(x => x.Text.Equals("")).Contains(true))
             {
@@ -50,7 +56,25 @@ namespace Controller
             else
             {
                 var imageArray = uploadImage.ImageToByte(image.Image);
-            }
+
+                //using (var db = new Conection())
+                //{
+                //    db.Insert(new Studient()
+                //    {
+                //        nid = listTextBox[0].Text,
+                //        name = listTextBox[1].Text,
+                //        surname = listTextBox[2].Text,
+                //        email = listTextBox[3].Text,
+
+                //    });
+                //}
+            _Studient.Value(e => e.nid, listTextBox[0].Text)
+                .Value(e => e.name, listTextBox[1].Text)
+                .Value(e => e.surname, listTextBox[2].Text)
+                .Value(e => e.email, listTextBox[3].Text)
+                .Value(e => e.image, imageArray)
+                .Insert();
+        }
 
 
         }

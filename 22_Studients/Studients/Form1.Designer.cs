@@ -49,9 +49,9 @@
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.textBoxSearch = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBoxInfo.SuspendLayout();
@@ -309,6 +309,17 @@
             this.groupBox4.TabIndex = 3;
             this.groupBox4.TabStop = false;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label5.Location = new System.Drawing.Point(43, 21);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(122, 29);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "Studients";
+            // 
             // textBoxSearch
             // 
             this.textBoxSearch.Location = new System.Drawing.Point(494, 21);
@@ -327,17 +338,6 @@
             this.label1.Size = new System.Drawing.Size(81, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Search";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.SteelBlue;
-            this.label5.Location = new System.Drawing.Point(43, 21);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(131, 29);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "Strudients";
             // 
             // Form1
             // 
