@@ -20,6 +20,7 @@ namespace Studients
 
             var listTextBox = new List<TextBox>();
             var listLabel = new List<Label>();
+
             listTextBox.Add(textBoxNID);
             listLabel.Add(labelNID);
             listTextBox.Add(textBoxSurname);
@@ -27,8 +28,13 @@ namespace Studients
             listTextBox.Add(textBoxName);
             listLabel.Add(labelName);
             listTextBox.Add(textBoxEmail);
-            listLabel.Add(labelEmail);
-            studient = new CStudients(listTextBox, listLabel);
+            listLabel.Add(labelEmail); 
+            
+            Object[] obj = { pictureBoxImage };
+
+            studient = new CStudients(listTextBox, listLabel, obj);
+
+
 
         }
 
