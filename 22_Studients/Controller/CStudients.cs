@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace Controller
 {
-    public class CStudients:Libraries
+    public class CStudients : Libraries
     {
         //private Libraries libraries = new Libraries();
         //private Conection database = new Conection();
@@ -30,30 +30,49 @@ namespace Controller
 
         public void RegisterStudient()
         {
-            if (listTextBox.Select(x => x.Text.Equals("")).Contains(true))
+
+            bool first = true;
+            for (int i = 0; i < listLabel.Count; i++)
             {
-                bool first = true;
-                for (int i = 0; i < listLabel.Count; i++)
+                if (listTextBox[i].Text.Equals(""))
                 {
-                    if (listTextBox[i].Text.Equals(""))
+                    listLabel[i].Text = "This field is required";
+                    listLabel[i].ForeColor = Color.Red;
+                    if (first)
                     {
-                        listLabel[i].Text = $"This field is required";
-                        listLabel[i].ForeColor = Color.Red;
-                        if (first)
-                        {
-                            listTextBox[i].Focus();
-                            first = false;
-                        }
+                        listTextBox[i].Focus();
+                        first = false;
                     }
                 }
             }
-            else if (!textBoxEvent.checkEmailFormat(listTextBox[3].Text))
+            if (first)
             {
-                listLabel[3].Text = "Email not valid";
-                listLabel[3].ForeColor = Color.Red;
-                listTextBox[3].Focus();
+                if (_Studient.Where(e => e.nid.Equals(listTextBox[1].Text)).Count() != 0)
+                {
+                    listLabel[1].Text = "Nid is already registered";
+                    listLabel[1].ForeColor = Color.Red;
+                    listTextBox[1].Focus();
+                }
+                else if (!textBoxEvent.checkEmailFormat(listTextBox[3].Text))
+                {
+                    listLabel[3].Text = "Email not valid";
+                    listLabel[3].ForeColor = Color.Red;
+                    listTextBox[3].Focus();
+                }
+                else if (_Studient.Where(e => e.email.Equals(listTextBox[3].Text)).Count() != 0)
+                {
+                    listLabel[3].Text = "Email is already registered";
+                    listLabel[3].ForeColor = Color.Red;
+                    listTextBox[3].Focus();
+                }
+                else startTransaction();
             }
-            else
+            
+        }
+        private void startTransaction()
+        {
+            BeginTransactionAsync();
+            try
             {
                 var imageArray = uploadImage.ImageToByte(image.Image);
 
@@ -68,15 +87,21 @@ namespace Controller
 
                 //    });
                 //}
-            _Studient.Value(e => e.nid, listTextBox[0].Text)
-                .Value(e => e.name, listTextBox[1].Text)
-                .Value(e => e.surname, listTextBox[2].Text)
-                .Value(e => e.email, listTextBox[3].Text)
-                .Value(e => e.image, imageArray)
-                .Insert();
-        }
+                _Studient.Value(e => e.nid, listTextBox[0].Text)
+                    .Value(e => e.name, listTextBox[1].Text)
+                    .Value(e => e.surname, listTextBox[2].Text)
+                    .Value(e => e.email, listTextBox[3].Text)
+                    .Value(e => e.image, imageArray)
+                    .Insert();
 
 
+                CommitTransaction();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Transaction not complete\n"+e.Message);
+            }
         }
+
     }
 }
