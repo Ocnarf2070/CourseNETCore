@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -47,17 +48,26 @@
             this.pictureBoxImage = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.dataGridViewStudient = new System.Windows.Forms.DataGridView();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.label5 = new System.Windows.Forms.Label();
             this.textBoxSearch = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.buttonFirst = new System.Windows.Forms.Button();
+            this.buttonLast = new System.Windows.Forms.Button();
+            this.buttonNext = new System.Windows.Forms.Button();
+            this.buttonPrevious = new System.Windows.Forms.Button();
+            this.labelPage = new System.Windows.Forms.Label();
+            this.numericPages = new System.Windows.Forms.NumericUpDown();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBoxInfo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxImage)).BeginInit();
             this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewStudient)).BeginInit();
             this.groupBox4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericPages)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -68,7 +78,7 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Location = new System.Drawing.Point(1, 0);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(881, 112);
+            this.groupBox1.Size = new System.Drawing.Size(997, 112);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
@@ -77,7 +87,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Montserrat", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(303, 40);
+            this.label2.Location = new System.Drawing.Point(345, 39);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(284, 34);
             this.label2.TabIndex = 0;
@@ -104,7 +114,7 @@
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Location = new System.Drawing.Point(12, 198);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(327, 371);
+            this.groupBox2.Size = new System.Drawing.Size(327, 434);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             // 
@@ -117,7 +127,7 @@
             this.buttonDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonDelete.ForeColor = System.Drawing.Color.White;
             this.buttonDelete.Image = ((System.Drawing.Image)(resources.GetObject("buttonDelete.Image")));
-            this.buttonDelete.Location = new System.Drawing.Point(118, 318);
+            this.buttonDelete.Location = new System.Drawing.Point(118, 354);
             this.buttonDelete.Name = "buttonDelete";
             this.buttonDelete.Size = new System.Drawing.Size(80, 37);
             this.buttonDelete.TabIndex = 6;
@@ -132,7 +142,7 @@
             this.buttonCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonCancel.ForeColor = System.Drawing.Color.White;
             this.buttonCancel.Image = ((System.Drawing.Image)(resources.GetObject("buttonCancel.Image")));
-            this.buttonCancel.Location = new System.Drawing.Point(231, 318);
+            this.buttonCancel.Location = new System.Drawing.Point(231, 354);
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(80, 37);
             this.buttonCancel.TabIndex = 7;
@@ -147,7 +157,7 @@
             this.buttonAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonAdd.ForeColor = System.Drawing.Color.White;
             this.buttonAdd.Image = ((System.Drawing.Image)(resources.GetObject("buttonAdd.Image")));
-            this.buttonAdd.Location = new System.Drawing.Point(11, 318);
+            this.buttonAdd.Location = new System.Drawing.Point(11, 354);
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Size = new System.Drawing.Size(80, 37);
             this.buttonAdd.TabIndex = 5;
@@ -159,7 +169,7 @@
             this.labelEmail.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelEmail.AutoSize = true;
             this.labelEmail.ForeColor = System.Drawing.Color.SteelBlue;
-            this.labelEmail.Location = new System.Drawing.Point(166, 254);
+            this.labelEmail.Location = new System.Drawing.Point(166, 271);
             this.labelEmail.Name = "labelEmail";
             this.labelEmail.Size = new System.Drawing.Size(42, 17);
             this.labelEmail.TabIndex = 9;
@@ -167,7 +177,7 @@
             // 
             // textBoxEmail
             // 
-            this.textBoxEmail.Location = new System.Drawing.Point(169, 274);
+            this.textBoxEmail.Location = new System.Drawing.Point(169, 291);
             this.textBoxEmail.Name = "textBoxEmail";
             this.textBoxEmail.Size = new System.Drawing.Size(142, 22);
             this.textBoxEmail.TabIndex = 4;
@@ -179,7 +189,7 @@
             this.labelName.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelName.AutoSize = true;
             this.labelName.ForeColor = System.Drawing.Color.SteelBlue;
-            this.labelName.Location = new System.Drawing.Point(8, 254);
+            this.labelName.Location = new System.Drawing.Point(8, 271);
             this.labelName.Name = "labelName";
             this.labelName.Size = new System.Drawing.Size(45, 17);
             this.labelName.TabIndex = 7;
@@ -187,7 +197,7 @@
             // 
             // textBoxName
             // 
-            this.textBoxName.Location = new System.Drawing.Point(11, 274);
+            this.textBoxName.Location = new System.Drawing.Point(11, 291);
             this.textBoxName.Name = "textBoxName";
             this.textBoxName.Size = new System.Drawing.Size(142, 22);
             this.textBoxName.TabIndex = 2;
@@ -199,7 +209,7 @@
             this.labelSurname.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelSurname.AutoSize = true;
             this.labelSurname.ForeColor = System.Drawing.Color.SteelBlue;
-            this.labelSurname.Location = new System.Drawing.Point(166, 209);
+            this.labelSurname.Location = new System.Drawing.Point(166, 226);
             this.labelSurname.Name = "labelSurname";
             this.labelSurname.Size = new System.Drawing.Size(65, 17);
             this.labelSurname.TabIndex = 5;
@@ -207,7 +217,7 @@
             // 
             // textBoxSurname
             // 
-            this.textBoxSurname.Location = new System.Drawing.Point(169, 229);
+            this.textBoxSurname.Location = new System.Drawing.Point(169, 246);
             this.textBoxSurname.Name = "textBoxSurname";
             this.textBoxSurname.Size = new System.Drawing.Size(142, 22);
             this.textBoxSurname.TabIndex = 3;
@@ -219,7 +229,7 @@
             this.labelNID.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelNID.AutoSize = true;
             this.labelNID.ForeColor = System.Drawing.Color.SteelBlue;
-            this.labelNID.Location = new System.Drawing.Point(8, 209);
+            this.labelNID.Location = new System.Drawing.Point(8, 226);
             this.labelNID.Name = "labelNID";
             this.labelNID.Size = new System.Drawing.Size(31, 17);
             this.labelNID.TabIndex = 3;
@@ -227,7 +237,7 @@
             // 
             // textBoxNID
             // 
-            this.textBoxNID.Location = new System.Drawing.Point(11, 229);
+            this.textBoxNID.Location = new System.Drawing.Point(11, 246);
             this.textBoxNID.Name = "textBoxNID";
             this.textBoxNID.Size = new System.Drawing.Size(142, 22);
             this.textBoxNID.TabIndex = 1;
@@ -251,6 +261,7 @@
             this.pictureBoxImage.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBoxImage.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBoxImage.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxImage.Image")));
+            this.pictureBoxImage.InitialImage = global::Studients.Properties.Resources.Incognito;
             this.pictureBoxImage.Location = new System.Drawing.Point(45, 14);
             this.pictureBoxImage.Name = "pictureBoxImage";
             this.pictureBoxImage.Size = new System.Drawing.Size(136, 136);
@@ -276,20 +287,50 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox3.BackColor = System.Drawing.Color.White;
+            this.groupBox3.Controls.Add(this.numericPages);
+            this.groupBox3.Controls.Add(this.labelPage);
+            this.groupBox3.Controls.Add(this.buttonPrevious);
+            this.groupBox3.Controls.Add(this.buttonNext);
+            this.groupBox3.Controls.Add(this.buttonLast);
+            this.groupBox3.Controls.Add(this.buttonFirst);
+            this.groupBox3.Controls.Add(this.dataGridViewStudient);
             this.groupBox3.Controls.Add(this.label4);
             this.groupBox3.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.groupBox3.Location = new System.Drawing.Point(345, 198);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(525, 371);
+            this.groupBox3.Size = new System.Drawing.Size(641, 434);
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
+            // 
+            // dataGridViewStudient
+            // 
+            this.dataGridViewStudient.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridViewStudient.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridViewStudient.BackgroundColor = System.Drawing.SystemColors.Control;
+            this.dataGridViewStudient.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewStudient.DefaultCellStyle = dataGridViewCellStyle2;
+            this.dataGridViewStudient.Location = new System.Drawing.Point(7, 22);
+            this.dataGridViewStudient.Name = "dataGridViewStudient";
+            this.dataGridViewStudient.RowHeadersWidth = 51;
+            this.dataGridViewStudient.RowTemplate.Height = 24;
+            this.dataGridViewStudient.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridViewStudient.Size = new System.Drawing.Size(628, 306);
+            this.dataGridViewStudient.TabIndex = 3;
             // 
             // label4
             // 
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label4.AutoSize = true;
             this.label4.ForeColor = System.Drawing.Color.SteelBlue;
-            this.label4.Location = new System.Drawing.Point(189, 0);
+            this.label4.Location = new System.Drawing.Point(247, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(109, 17);
             this.label4.TabIndex = 2;
@@ -305,7 +346,7 @@
             this.groupBox4.Controls.Add(this.label1);
             this.groupBox4.Location = new System.Drawing.Point(12, 118);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(858, 74);
+            this.groupBox4.Size = new System.Drawing.Size(974, 74);
             this.groupBox4.TabIndex = 3;
             this.groupBox4.TabStop = false;
             // 
@@ -322,28 +363,117 @@
             // 
             // textBoxSearch
             // 
-            this.textBoxSearch.Location = new System.Drawing.Point(494, 21);
+            this.textBoxSearch.Location = new System.Drawing.Point(583, 24);
             this.textBoxSearch.Multiline = true;
             this.textBoxSearch.Name = "textBoxSearch";
             this.textBoxSearch.Size = new System.Drawing.Size(234, 25);
             this.textBoxSearch.TabIndex = 8;
+            this.textBoxSearch.TextChanged += new System.EventHandler(this.textBoxSearch_TextChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.SteelBlue;
-            this.label1.Location = new System.Drawing.Point(407, 21);
+            this.label1.Location = new System.Drawing.Point(496, 24);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(81, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Search";
             // 
+            // buttonFirst
+            // 
+            this.buttonFirst.BackColor = System.Drawing.Color.SteelBlue;
+            this.buttonFirst.FlatAppearance.BorderSize = 0;
+            this.buttonFirst.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SlateGray;
+            this.buttonFirst.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSkyBlue;
+            this.buttonFirst.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonFirst.ForeColor = System.Drawing.Color.White;
+            this.buttonFirst.Image = ((System.Drawing.Image)(resources.GetObject("buttonFirst.Image")));
+            this.buttonFirst.Location = new System.Drawing.Point(131, 359);
+            this.buttonFirst.Name = "buttonFirst";
+            this.buttonFirst.Size = new System.Drawing.Size(93, 27);
+            this.buttonFirst.TabIndex = 10;
+            this.buttonFirst.UseVisualStyleBackColor = false;
+            // 
+            // buttonLast
+            // 
+            this.buttonLast.BackColor = System.Drawing.Color.SteelBlue;
+            this.buttonLast.FlatAppearance.BorderSize = 0;
+            this.buttonLast.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SlateGray;
+            this.buttonLast.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSkyBlue;
+            this.buttonLast.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonLast.ForeColor = System.Drawing.Color.White;
+            this.buttonLast.Image = ((System.Drawing.Image)(resources.GetObject("buttonLast.Image")));
+            this.buttonLast.Location = new System.Drawing.Point(432, 359);
+            this.buttonLast.Name = "buttonLast";
+            this.buttonLast.Size = new System.Drawing.Size(93, 27);
+            this.buttonLast.TabIndex = 11;
+            this.buttonLast.UseVisualStyleBackColor = false;
+            // 
+            // buttonNext
+            // 
+            this.buttonNext.BackColor = System.Drawing.Color.SteelBlue;
+            this.buttonNext.FlatAppearance.BorderSize = 0;
+            this.buttonNext.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SlateGray;
+            this.buttonNext.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSkyBlue;
+            this.buttonNext.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonNext.ForeColor = System.Drawing.Color.White;
+            this.buttonNext.Image = ((System.Drawing.Image)(resources.GetObject("buttonNext.Image")));
+            this.buttonNext.Location = new System.Drawing.Point(333, 359);
+            this.buttonNext.Name = "buttonNext";
+            this.buttonNext.Size = new System.Drawing.Size(93, 27);
+            this.buttonNext.TabIndex = 12;
+            this.buttonNext.UseVisualStyleBackColor = false;
+            // 
+            // buttonPrevious
+            // 
+            this.buttonPrevious.BackColor = System.Drawing.Color.SteelBlue;
+            this.buttonPrevious.FlatAppearance.BorderSize = 0;
+            this.buttonPrevious.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SlateGray;
+            this.buttonPrevious.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSkyBlue;
+            this.buttonPrevious.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonPrevious.ForeColor = System.Drawing.Color.White;
+            this.buttonPrevious.Image = ((System.Drawing.Image)(resources.GetObject("buttonPrevious.Image")));
+            this.buttonPrevious.Location = new System.Drawing.Point(234, 359);
+            this.buttonPrevious.Name = "buttonPrevious";
+            this.buttonPrevious.Size = new System.Drawing.Size(93, 27);
+            this.buttonPrevious.TabIndex = 13;
+            this.buttonPrevious.UseVisualStyleBackColor = false;
+            // 
+            // labelPage
+            // 
+            this.labelPage.AutoSize = true;
+            this.labelPage.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelPage.ForeColor = System.Drawing.Color.SteelBlue;
+            this.labelPage.Location = new System.Drawing.Point(305, 336);
+            this.labelPage.Name = "labelPage";
+            this.labelPage.Size = new System.Drawing.Size(51, 20);
+            this.labelPage.TabIndex = 10;
+            this.labelPage.Text = "Page";
+            // 
+            // numericPages
+            // 
+            this.numericPages.Location = new System.Drawing.Point(36, 362);
+            this.numericPages.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numericPages.Name = "numericPages";
+            this.numericPages.Size = new System.Drawing.Size(63, 22);
+            this.numericPages.TabIndex = 14;
+            this.numericPages.Value = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(882, 581);
+            this.ClientSize = new System.Drawing.Size(998, 644);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
@@ -359,8 +489,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxImage)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewStudient)).EndInit();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericPages)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -390,6 +522,13 @@
         private System.Windows.Forms.Button buttonDelete;
         private System.Windows.Forms.PictureBox pictureBoxImage;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.DataGridView dataGridViewStudient;
+        private System.Windows.Forms.NumericUpDown numericPages;
+        private System.Windows.Forms.Label labelPage;
+        private System.Windows.Forms.Button buttonPrevious;
+        private System.Windows.Forms.Button buttonNext;
+        private System.Windows.Forms.Button buttonLast;
+        private System.Windows.Forms.Button buttonFirst;
     }
 }
 

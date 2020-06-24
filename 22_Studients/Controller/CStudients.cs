@@ -19,13 +19,19 @@ namespace Controller
         private List<TextBox> listTextBox;
         private List<Label> listLabel;
         private PictureBox image;
-
+        private Bitmap _originalImage;
+        private DataGridView _dataGridView;
+        private NumericUpDown _numericUpDown;
 
         public CStudients(List<TextBox> listTextBox, List<Label> listLabel, Object[] objects)
         {
             this.listTextBox = listTextBox;
             this.listLabel = listLabel;
             this.image = (PictureBox)objects[0];
+            this._originalImage = (Bitmap)objects[1];
+            this._dataGridView = (DataGridView)objects[2];
+            this._numericUpDown = (NumericUpDown)objects[3];
+            Reestablish();
         }
 
         public void RegisterStudient()
@@ -49,7 +55,7 @@ namespace Controller
             {
                 if (_Studient.Where(e => e.nid.Equals(listTextBox[1].Text)).Count() != 0)
                 {
-                    listLabel[1].Text = "Nid is already registered";
+                    listLabel[1].Text = "NID is already registered";
                     listLabel[1].ForeColor = Color.Red;
                     listTextBox[1].Focus();
                 }
@@ -67,7 +73,7 @@ namespace Controller
                 }
                 else startTransaction();
             }
-            
+
         }
         private void startTransaction()
         {
@@ -96,12 +102,67 @@ namespace Controller
 
 
                 CommitTransaction();
+                Reestablish();
             }
             catch (Exception e)
             {
-                Console.WriteLine("Transaction not complete\n"+e.Message);
+                Console.WriteLine("Transaction not complete\n" + e.Message);
             }
         }
+        private void Reestablish()
+        {
+            image.Image = _originalImage;
+            listLabel[0].Text = "NID";
+            listLabel[0].ForeColor = Color.LightSlateGray;
+            listLabel[1].Text = "Name";
+            listLabel[1].ForeColor = Color.LightSlateGray;
+            listLabel[2].Text = "Surname";
+            listLabel[2].ForeColor = Color.LightSlateGray;
+            listLabel[3].Text = "Email";
+            listLabel[3].ForeColor = Color.LightSlateGray;
+            SeachStudient("");
+        }
+
+        private int _reg_per_page = 2, _num_page = 1;
+        public void SeachStudient(string search)
+        {
+            int initial = (_num_page - 1) * _reg_per_page;
+            List<Studient> query = new List<Studient>();
+            if (search.Equals("")) query = _Studient.ToList();
+            else
+                query = _Studient.Where(s => s.nid.StartsWith(search)
+                || s.name.StartsWith(search) || s.surname.StartsWith(search)).ToList();
+            if (query.Count > 0)
+            {
+                _dataGridView.DataSource = query.Select(
+                    s => new
+                    {
+                        s.id,
+                        s.nid,
+                        s.name,
+                        s.surname,
+                        s.email,
+                    }).Skip(initial).Take(_reg_per_page).ToList();
+                _dataGridView.Columns[0].Visible = false;
+
+                _dataGridView.Columns[1].DefaultCellStyle.BackColor = Color.WhiteSmoke;
+                _dataGridView.Columns[3].DefaultCellStyle.BackColor = Color.WhiteSmoke;
+
+            }
+            else
+            {
+                _dataGridView.DataSource = query.Select(
+                    s => new
+                    {
+                        s.id,
+                        s.nid,
+                        s.name,
+                        s.surname,
+                        s.email,
+                    }).ToList();
+            }
+        }
+
 
     }
 }

@@ -28,9 +28,17 @@ namespace Studients
             listTextBox.Add(textBoxName);
             listLabel.Add(labelName);
             listTextBox.Add(textBoxEmail);
-            listLabel.Add(labelEmail); 
-            
-            Object[] obj = { pictureBoxImage };
+            listLabel.Add(labelEmail);
+            listLabel.Add(labelPage);
+
+            Console.WriteLine(System.IO.Directory.GetCurrentDirectory());
+            Object[] obj = {
+                pictureBoxImage,
+                Properties.Resources.Incognito,
+                dataGridViewStudient,
+                numericPages,
+
+            };
 
             studient = new CStudients(listTextBox, listLabel, obj);
 
@@ -123,6 +131,11 @@ namespace Studients
         private void buttonAdd_Click(object sender, EventArgs e)
         {
             studient.RegisterStudient();
+        }
+
+        private void textBoxSearch_TextChanged(object sender, EventArgs e)
+        {
+            studient.SeachStudient(textBoxSearch.Text);
         }
     }
 }
