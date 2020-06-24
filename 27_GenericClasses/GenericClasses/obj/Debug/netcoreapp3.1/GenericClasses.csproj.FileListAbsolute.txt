@@ -1,0 +1,13 @@
+D:\Coding\CourseNETCore\27_GenericClasses\GenericClasses\bin\Debug\netcoreapp3.1\GenericClasses.exe
+D:\Coding\CourseNETCore\27_GenericClasses\GenericClasses\bin\Debug\netcoreapp3.1\GenericClasses.deps.json
+D:\Coding\CourseNETCore\27_GenericClasses\GenericClasses\bin\Debug\netcoreapp3.1\GenericClasses.runtimeconfig.json
+D:\Coding\CourseNETCore\27_GenericClasses\GenericClasses\bin\Debug\netcoreapp3.1\GenericClasses.runtimeconfig.dev.json
+D:\Coding\CourseNETCore\27_GenericClasses\GenericClasses\bin\Debug\netcoreapp3.1\GenericClasses.dll
+D:\Coding\CourseNETCore\27_GenericClasses\GenericClasses\bin\Debug\netcoreapp3.1\GenericClasses.pdb
+D:\Coding\CourseNETCore\27_GenericClasses\GenericClasses\obj\Debug\netcoreapp3.1\GenericClasses.csprojAssemblyReference.cache
+D:\Coding\CourseNETCore\27_GenericClasses\GenericClasses\obj\Debug\netcoreapp3.1\GenericClasses.AssemblyInfoInputs.cache
+D:\Coding\CourseNETCore\27_GenericClasses\GenericClasses\obj\Debug\netcoreapp3.1\GenericClasses.AssemblyInfo.cs
+D:\Coding\CourseNETCore\27_GenericClasses\GenericClasses\obj\Debug\netcoreapp3.1\GenericClasses.csproj.CoreCompileInputs.cache
+D:\Coding\CourseNETCore\27_GenericClasses\GenericClasses\obj\Debug\netcoreapp3.1\GenericClasses.dll
+D:\Coding\CourseNETCore\27_GenericClasses\GenericClasses\obj\Debug\netcoreapp3.1\GenericClasses.pdb
+D:\Coding\CourseNETCore\27_GenericClasses\GenericClasses\obj\Debug\netcoreapp3.1\GenericClasses.genruntimeconfig.cache
