@@ -66,13 +66,19 @@ namespace Controller
             }
             if (first)
             {
-                if (!textBoxEvent.checkEmailFormat(listTextBox[3].Text))
+                if (_Studient.Where(e => e.nid.Equals(listTextBox[0].Text)).Count() != 0)
+                {
+                    listLabel[0].Text = "NID is already registered";
+                    listLabel[0].ForeColor = Color.Red;
+                    listTextBox[0].Focus();
+                }
+                else if (!textBoxEvent.checkEmailFormat(listTextBox[3].Text))
                 {
                     listLabel[3].Text = "Email not valid";
                     listLabel[3].ForeColor = Color.Red;
                     listTextBox[3].Focus();
                 }
-                else if (!(_idStudient < 0))
+                else if (_idStudient > 0)
                 {
                     var user = from p in _Studient where p.id == _idStudient select p;
                     var email = from e in user select e.email;
@@ -88,13 +94,8 @@ namespace Controller
                 }
                 else
                 {
-                    if (_Studient.Where(e => e.nid.Equals(listTextBox[1].Text)).Count() != 0)
-                    {
-                        listLabel[1].Text = "NID is already registered";
-                        listLabel[1].ForeColor = Color.Red;
-                        listTextBox[1].Focus();
-                    }
-                    else if (_Studient.Where(e => e.email.Equals(listTextBox[3].Text)).Count() != 0)
+
+                    if (_Studient.Where(e => e.email.Equals(listTextBox[3].Text)).Count() != 0)
                     {
                         listLabel[3].Text = "Email is already registered";
                         listLabel[3].ForeColor = Color.Red;
@@ -133,6 +134,7 @@ namespace Controller
                         .Insert();
                 else if (method.Equals(Method.Modify))
                     _Studient.Where(s => s.id.Equals(_idStudient))
+                        .Set(s => s.nid, listTextBox[0].Text)
                         .Set(s => s.name, listTextBox[1].Text)
                         .Set(s => s.surname, listTextBox[2].Text)
                         .Set(s => s.email, listTextBox[3].Text)
@@ -148,9 +150,40 @@ namespace Controller
                 Console.WriteLine("Transaction not complete\n" + e.Message);
             }
         }
-        private void Reestablish()
+
+        public void DeleteStudient()
         {
-            _idStudient = -1;
+            if (_idStudient == 0) MessageBox.Show("Select a studient.");
+            else
+            {
+                var option = MessageBox.Show("Are you sure to eliminate this studient?", "Delete studient", MessageBoxButtons.YesNo);
+                if (option.Equals(DialogResult.Yes))
+                {
+                    try
+                    {
+                        BeginTransactionAsync();
+                        _Studient.Where(s => s.id.Equals(_idStudient)).Delete();
+                        Reestablish();
+                        CommitTransaction();
+                    }
+                    catch(LinqToDBException e)
+                    {
+                        Console.WriteLine("Transaction not complete\n" + e.Message);
+
+                    }
+                    catch (Exception e)
+                    {
+                        Console.WriteLine("Transaction not complete\n" + e.Message);
+
+                    }
+
+                }
+            }
+        }
+
+        public void Reestablish()
+        {
+            _idStudient = 0;
             image.Image = _originalImage;
             listLabel[0].Text = "NID";
             listLabel[0].ForeColor = Color.LightSlateGray;
@@ -160,6 +193,7 @@ namespace Controller
             listLabel[2].ForeColor = Color.LightSlateGray;
             listLabel[3].Text = "Email";
             listLabel[3].ForeColor = Color.LightSlateGray;
+            foreach (var textbox in listTextBox) textbox.Text = "";
             if (_Studient.Count() > 0) _pager = new Pager<Studient>(_Studient.ToList(), listLabel[4], _reg_per_page);
             SeachStudient("");
         }
@@ -215,7 +249,7 @@ namespace Controller
             }
         }
 
-        private int _idStudient = -1;
+        private int _idStudient = 0;
         public void GetStudient()
         {
             _idStudient = Convert.ToInt32(_dataGridView.CurrentRow.Cells[0].Value);
@@ -235,6 +269,7 @@ namespace Controller
 
 
         }
+
 
     }
 }

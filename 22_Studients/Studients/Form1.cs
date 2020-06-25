@@ -173,5 +173,15 @@ namespace Studients
             if (dataGridViewStudient.Rows.Count != 0)
                 studient.GetStudient();
         }
+
+        private void buttonCancel_Click(object sender, EventArgs e)
+        {
+            studient.Reestablish();
+        }
+
+        private void buttonDelete_Click(object sender, EventArgs e)
+        {
+            studient.DeleteStudient();
+        }
     }
 }
