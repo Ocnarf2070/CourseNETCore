@@ -94,6 +94,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library\Libraries.cs" />
+    <Compile Include="Library\Pager.cs" />
     <Compile Include="Library\TextBoxEvent.cs" />
     <Compile Include="Library\UploadImage.cs" />
     <Compile Include="CStudients.cs" />

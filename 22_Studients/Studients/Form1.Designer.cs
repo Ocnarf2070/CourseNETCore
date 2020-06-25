@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -48,26 +48,26 @@
             this.pictureBoxImage = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.numericPages = new System.Windows.Forms.NumericUpDown();
+            this.labelPage = new System.Windows.Forms.Label();
+            this.buttonPrevious = new System.Windows.Forms.Button();
+            this.buttonNext = new System.Windows.Forms.Button();
+            this.buttonLast = new System.Windows.Forms.Button();
+            this.buttonFirst = new System.Windows.Forms.Button();
             this.dataGridViewStudient = new System.Windows.Forms.DataGridView();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.label5 = new System.Windows.Forms.Label();
             this.textBoxSearch = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.buttonFirst = new System.Windows.Forms.Button();
-            this.buttonLast = new System.Windows.Forms.Button();
-            this.buttonNext = new System.Windows.Forms.Button();
-            this.buttonPrevious = new System.Windows.Forms.Button();
-            this.labelPage = new System.Windows.Forms.Label();
-            this.numericPages = new System.Windows.Forms.NumericUpDown();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBoxInfo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxImage)).BeginInit();
             this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericPages)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewStudient)).BeginInit();
             this.groupBox4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericPages)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -302,6 +302,99 @@
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
             // 
+            // numericPages
+            // 
+            this.numericPages.Location = new System.Drawing.Point(36, 362);
+            this.numericPages.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numericPages.Name = "numericPages";
+            this.numericPages.Size = new System.Drawing.Size(63, 22);
+            this.numericPages.TabIndex = 14;
+            this.numericPages.Value = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
+            this.numericPages.ValueChanged += new System.EventHandler(this.numericPages_ValueChanged);
+            // 
+            // labelPage
+            // 
+            this.labelPage.AutoSize = true;
+            this.labelPage.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelPage.ForeColor = System.Drawing.Color.SteelBlue;
+            this.labelPage.Location = new System.Drawing.Point(276, 336);
+            this.labelPage.Name = "labelPage";
+            this.labelPage.Size = new System.Drawing.Size(51, 20);
+            this.labelPage.TabIndex = 10;
+            this.labelPage.Text = "Page";
+            // 
+            // buttonPrevious
+            // 
+            this.buttonPrevious.BackColor = System.Drawing.Color.SteelBlue;
+            this.buttonPrevious.FlatAppearance.BorderSize = 0;
+            this.buttonPrevious.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SlateGray;
+            this.buttonPrevious.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSkyBlue;
+            this.buttonPrevious.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonPrevious.ForeColor = System.Drawing.Color.White;
+            this.buttonPrevious.Image = ((System.Drawing.Image)(resources.GetObject("buttonPrevious.Image")));
+            this.buttonPrevious.Location = new System.Drawing.Point(234, 359);
+            this.buttonPrevious.Name = "buttonPrevious";
+            this.buttonPrevious.Size = new System.Drawing.Size(93, 27);
+            this.buttonPrevious.TabIndex = 13;
+            this.buttonPrevious.UseVisualStyleBackColor = false;
+            this.buttonPrevious.Click += new System.EventHandler(this.buttonPrevious_Click);
+            // 
+            // buttonNext
+            // 
+            this.buttonNext.BackColor = System.Drawing.Color.SteelBlue;
+            this.buttonNext.FlatAppearance.BorderSize = 0;
+            this.buttonNext.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SlateGray;
+            this.buttonNext.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSkyBlue;
+            this.buttonNext.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonNext.ForeColor = System.Drawing.Color.White;
+            this.buttonNext.Image = ((System.Drawing.Image)(resources.GetObject("buttonNext.Image")));
+            this.buttonNext.Location = new System.Drawing.Point(333, 359);
+            this.buttonNext.Name = "buttonNext";
+            this.buttonNext.Size = new System.Drawing.Size(93, 27);
+            this.buttonNext.TabIndex = 12;
+            this.buttonNext.UseVisualStyleBackColor = false;
+            this.buttonNext.Click += new System.EventHandler(this.buttonNext_Click);
+            // 
+            // buttonLast
+            // 
+            this.buttonLast.BackColor = System.Drawing.Color.SteelBlue;
+            this.buttonLast.FlatAppearance.BorderSize = 0;
+            this.buttonLast.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SlateGray;
+            this.buttonLast.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSkyBlue;
+            this.buttonLast.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonLast.ForeColor = System.Drawing.Color.White;
+            this.buttonLast.Image = ((System.Drawing.Image)(resources.GetObject("buttonLast.Image")));
+            this.buttonLast.Location = new System.Drawing.Point(432, 359);
+            this.buttonLast.Name = "buttonLast";
+            this.buttonLast.Size = new System.Drawing.Size(93, 27);
+            this.buttonLast.TabIndex = 11;
+            this.buttonLast.UseVisualStyleBackColor = false;
+            this.buttonLast.Click += new System.EventHandler(this.buttonLast_Click);
+            // 
+            // buttonFirst
+            // 
+            this.buttonFirst.BackColor = System.Drawing.Color.SteelBlue;
+            this.buttonFirst.FlatAppearance.BorderSize = 0;
+            this.buttonFirst.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SlateGray;
+            this.buttonFirst.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSkyBlue;
+            this.buttonFirst.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonFirst.ForeColor = System.Drawing.Color.White;
+            this.buttonFirst.Image = ((System.Drawing.Image)(resources.GetObject("buttonFirst.Image")));
+            this.buttonFirst.Location = new System.Drawing.Point(131, 359);
+            this.buttonFirst.Name = "buttonFirst";
+            this.buttonFirst.Size = new System.Drawing.Size(93, 27);
+            this.buttonFirst.TabIndex = 10;
+            this.buttonFirst.UseVisualStyleBackColor = false;
+            this.buttonFirst.Click += new System.EventHandler(this.buttonFirst_Click);
+            // 
             // dataGridViewStudient
             // 
             this.dataGridViewStudient.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -309,14 +402,14 @@
             this.dataGridViewStudient.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridViewStudient.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dataGridViewStudient.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridViewStudient.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewStudient.DefaultCellStyle = dataGridViewCellStyle6;
             this.dataGridViewStudient.Location = new System.Drawing.Point(7, 22);
             this.dataGridViewStudient.Name = "dataGridViewStudient";
             this.dataGridViewStudient.RowHeadersWidth = 51;
@@ -381,94 +474,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Search";
             // 
-            // buttonFirst
-            // 
-            this.buttonFirst.BackColor = System.Drawing.Color.SteelBlue;
-            this.buttonFirst.FlatAppearance.BorderSize = 0;
-            this.buttonFirst.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SlateGray;
-            this.buttonFirst.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSkyBlue;
-            this.buttonFirst.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonFirst.ForeColor = System.Drawing.Color.White;
-            this.buttonFirst.Image = ((System.Drawing.Image)(resources.GetObject("buttonFirst.Image")));
-            this.buttonFirst.Location = new System.Drawing.Point(131, 359);
-            this.buttonFirst.Name = "buttonFirst";
-            this.buttonFirst.Size = new System.Drawing.Size(93, 27);
-            this.buttonFirst.TabIndex = 10;
-            this.buttonFirst.UseVisualStyleBackColor = false;
-            // 
-            // buttonLast
-            // 
-            this.buttonLast.BackColor = System.Drawing.Color.SteelBlue;
-            this.buttonLast.FlatAppearance.BorderSize = 0;
-            this.buttonLast.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SlateGray;
-            this.buttonLast.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSkyBlue;
-            this.buttonLast.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonLast.ForeColor = System.Drawing.Color.White;
-            this.buttonLast.Image = ((System.Drawing.Image)(resources.GetObject("buttonLast.Image")));
-            this.buttonLast.Location = new System.Drawing.Point(432, 359);
-            this.buttonLast.Name = "buttonLast";
-            this.buttonLast.Size = new System.Drawing.Size(93, 27);
-            this.buttonLast.TabIndex = 11;
-            this.buttonLast.UseVisualStyleBackColor = false;
-            // 
-            // buttonNext
-            // 
-            this.buttonNext.BackColor = System.Drawing.Color.SteelBlue;
-            this.buttonNext.FlatAppearance.BorderSize = 0;
-            this.buttonNext.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SlateGray;
-            this.buttonNext.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSkyBlue;
-            this.buttonNext.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonNext.ForeColor = System.Drawing.Color.White;
-            this.buttonNext.Image = ((System.Drawing.Image)(resources.GetObject("buttonNext.Image")));
-            this.buttonNext.Location = new System.Drawing.Point(333, 359);
-            this.buttonNext.Name = "buttonNext";
-            this.buttonNext.Size = new System.Drawing.Size(93, 27);
-            this.buttonNext.TabIndex = 12;
-            this.buttonNext.UseVisualStyleBackColor = false;
-            // 
-            // buttonPrevious
-            // 
-            this.buttonPrevious.BackColor = System.Drawing.Color.SteelBlue;
-            this.buttonPrevious.FlatAppearance.BorderSize = 0;
-            this.buttonPrevious.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SlateGray;
-            this.buttonPrevious.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSkyBlue;
-            this.buttonPrevious.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonPrevious.ForeColor = System.Drawing.Color.White;
-            this.buttonPrevious.Image = ((System.Drawing.Image)(resources.GetObject("buttonPrevious.Image")));
-            this.buttonPrevious.Location = new System.Drawing.Point(234, 359);
-            this.buttonPrevious.Name = "buttonPrevious";
-            this.buttonPrevious.Size = new System.Drawing.Size(93, 27);
-            this.buttonPrevious.TabIndex = 13;
-            this.buttonPrevious.UseVisualStyleBackColor = false;
-            // 
-            // labelPage
-            // 
-            this.labelPage.AutoSize = true;
-            this.labelPage.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelPage.ForeColor = System.Drawing.Color.SteelBlue;
-            this.labelPage.Location = new System.Drawing.Point(305, 336);
-            this.labelPage.Name = "labelPage";
-            this.labelPage.Size = new System.Drawing.Size(51, 20);
-            this.labelPage.TabIndex = 10;
-            this.labelPage.Text = "Page";
-            // 
-            // numericPages
-            // 
-            this.numericPages.Location = new System.Drawing.Point(36, 362);
-            this.numericPages.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericPages.Name = "numericPages";
-            this.numericPages.Size = new System.Drawing.Size(63, 22);
-            this.numericPages.TabIndex = 14;
-            this.numericPages.Value = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -489,10 +494,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxImage)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericPages)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewStudient)).EndInit();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericPages)).EndInit();
             this.ResumeLayout(false);
 
         }

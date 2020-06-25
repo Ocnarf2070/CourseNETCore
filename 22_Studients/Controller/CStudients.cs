@@ -22,6 +22,7 @@ namespace Controller
         private Bitmap _originalImage;
         private DataGridView _dataGridView;
         private NumericUpDown _numericUpDown;
+        private Pager<Studient> _pager;
 
         public CStudients(List<TextBox> listTextBox, List<Label> listLabel, Object[] objects)
         {
@@ -32,6 +33,12 @@ namespace Controller
             this._dataGridView = (DataGridView)objects[2];
             this._numericUpDown = (NumericUpDown)objects[3];
             Reestablish();
+        }
+
+        public void Pager(Library.Action action)
+        {
+            _num_page = _pager.action(action);
+            SeachStudient("");
         }
 
         public void RegisterStudient()
@@ -120,6 +127,15 @@ namespace Controller
             listLabel[2].ForeColor = Color.LightSlateGray;
             listLabel[3].Text = "Email";
             listLabel[3].ForeColor = Color.LightSlateGray;
+            if (_Studient.Count() > 0) _pager = new Pager<Studient>(_Studient.ToList(), listLabel[4], _reg_per_page);
+            SeachStudient("");
+        }
+
+        public void PageRegister()
+        {
+            _num_page = 1;
+            _reg_per_page = (int)_numericUpDown.Value;
+            if (_Studient.Count() > 0) _pager = new Pager<Studient>(_Studient.ToList(), listLabel[4], _reg_per_page);
             SeachStudient("");
         }
 

@@ -37,7 +37,6 @@ namespace Studients
                 Properties.Resources.Incognito,
                 dataGridViewStudient,
                 numericPages,
-
             };
 
             studient = new CStudients(listTextBox, listLabel, obj);
@@ -136,6 +135,31 @@ namespace Studients
         private void textBoxSearch_TextChanged(object sender, EventArgs e)
         {
             studient.SeachStudient(textBoxSearch.Text);
+        }
+
+        private void buttonFirst_Click(object sender, EventArgs e)
+        {
+            studient.Pager(Controller.Library.Action.First);
+        }
+
+        private void buttonPrevious_Click(object sender, EventArgs e)
+        {
+            studient.Pager(Controller.Library.Action.Previous);
+        }
+
+        private void buttonNext_Click(object sender, EventArgs e)
+        {
+            studient.Pager(Controller.Library.Action.Next);
+        }
+
+        private void buttonLast_Click(object sender, EventArgs e)
+        {
+            studient.Pager(Controller.Library.Action.Last);
+        }
+
+        private void numericPages_ValueChanged(object sender, EventArgs e)
+        {
+            studient.PageRegister();
         }
     }
 }
