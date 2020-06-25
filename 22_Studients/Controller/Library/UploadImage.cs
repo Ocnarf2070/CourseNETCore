@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -28,6 +29,11 @@ namespace Controller.Library
         {
             var convert = new ImageConverter();
             return (byte[])convert.ConvertTo(img, typeof(byte[]));
+        }
+
+        public Image ByteArrayToImage(byte[] byteArray)
+        {
+            return Image.FromStream(new MemoryStream(byteArray));
         }
     }
 }

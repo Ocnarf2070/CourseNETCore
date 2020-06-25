@@ -11,6 +11,11 @@ using System.Windows.Forms;
 
 namespace Controller
 {
+    public enum Method
+    {
+        Insert,
+        Modify
+    }
     public class CStudients : Libraries
     {
         //private Libraries libraries = new Libraries();
@@ -45,8 +50,9 @@ namespace Controller
         {
 
             bool first = true;
-            for (int i = 0; i < listLabel.Count; i++)
+            for (int i = 0; i < listTextBox.Count; i++)
             {
+                
                 if (listTextBox[i].Text.Equals(""))
                 {
                     listLabel[i].Text = "This field is required";
@@ -60,29 +66,47 @@ namespace Controller
             }
             if (first)
             {
-                if (_Studient.Where(e => e.nid.Equals(listTextBox[1].Text)).Count() != 0)
-                {
-                    listLabel[1].Text = "NID is already registered";
-                    listLabel[1].ForeColor = Color.Red;
-                    listTextBox[1].Focus();
-                }
-                else if (!textBoxEvent.checkEmailFormat(listTextBox[3].Text))
+                if (!textBoxEvent.checkEmailFormat(listTextBox[3].Text))
                 {
                     listLabel[3].Text = "Email not valid";
                     listLabel[3].ForeColor = Color.Red;
                     listTextBox[3].Focus();
                 }
-                else if (_Studient.Where(e => e.email.Equals(listTextBox[3].Text)).Count() != 0)
+                else if (!(_idStudient < 0))
                 {
-                    listLabel[3].Text = "Email is already registered";
-                    listLabel[3].ForeColor = Color.Red;
-                    listTextBox[3].Focus();
+                    var user = from p in _Studient where p.id == _idStudient select p;
+                    var email = from e in user select e.email;
+                    
+                    if (!email.First().Equals(listTextBox[3].Text)&&_Studient.Where(e => e.email.Equals(listTextBox[3].Text)).Count() != 0)
+                    {
+                        listLabel[3].Text = "Email is already registered";
+                        listLabel[3].ForeColor = Color.Red;
+                        listTextBox[3].Focus();
+                    }
+
+                    startTransaction(Method.Modify);
                 }
-                else startTransaction();
+                else
+                {
+                    if (_Studient.Where(e => e.nid.Equals(listTextBox[1].Text)).Count() != 0)
+                    {
+                        listLabel[1].Text = "NID is already registered";
+                        listLabel[1].ForeColor = Color.Red;
+                        listTextBox[1].Focus();
+                    }
+                    else if (_Studient.Where(e => e.email.Equals(listTextBox[3].Text)).Count() != 0)
+                    {
+                        listLabel[3].Text = "Email is already registered";
+                        listLabel[3].ForeColor = Color.Red;
+                        listTextBox[3].Focus();
+                    }
+                    else startTransaction(Method.Insert);
+                }
             }
 
+
         }
-        private void startTransaction()
+        private void startTransaction(Method method)
         {
             BeginTransactionAsync();
             try
@@ -100,12 +124,20 @@ namespace Controller
 
                 //    });
                 //}
-                _Studient.Value(e => e.nid, listTextBox[0].Text)
-                    .Value(e => e.name, listTextBox[1].Text)
-                    .Value(e => e.surname, listTextBox[2].Text)
-                    .Value(e => e.email, listTextBox[3].Text)
-                    .Value(e => e.image, imageArray)
-                    .Insert();
+                if (method.Equals(Method.Insert))
+                    _Studient.Value(s => s.nid, listTextBox[0].Text)
+                        .Value(s => s.name, listTextBox[1].Text)
+                        .Value(s => s.surname, listTextBox[2].Text)
+                        .Value(s => s.email, listTextBox[3].Text)
+                        .Value(s => s.image, imageArray)
+                        .Insert();
+                else if (method.Equals(Method.Modify))
+                    _Studient.Where(s => s.id.Equals(_idStudient))
+                        .Set(s => s.name, listTextBox[1].Text)
+                        .Set(s => s.surname, listTextBox[2].Text)
+                        .Set(s => s.email, listTextBox[3].Text)
+                        .Set(s => s.image, imageArray)
+                        .Update();
 
 
                 CommitTransaction();
@@ -118,6 +150,7 @@ namespace Controller
         }
         private void Reestablish()
         {
+            _idStudient = -1;
             image.Image = _originalImage;
             listLabel[0].Text = "NID";
             listLabel[0].ForeColor = Color.LightSlateGray;
@@ -158,8 +191,10 @@ namespace Controller
                         s.name,
                         s.surname,
                         s.email,
+                        s.image
                     }).Skip(initial).Take(_reg_per_page).ToList();
                 _dataGridView.Columns[0].Visible = false;
+                _dataGridView.Columns[5].Visible = false;
 
                 _dataGridView.Columns[1].DefaultCellStyle.BackColor = Color.WhiteSmoke;
                 _dataGridView.Columns[3].DefaultCellStyle.BackColor = Color.WhiteSmoke;
@@ -175,10 +210,31 @@ namespace Controller
                         s.name,
                         s.surname,
                         s.email,
+                        s.image
                     }).ToList();
             }
         }
 
+        private int _idStudient = -1;
+        public void GetStudient()
+        {
+            _idStudient = Convert.ToInt32(_dataGridView.CurrentRow.Cells[0].Value);
+            listTextBox[0].Text = Convert.ToString(_dataGridView.CurrentRow.Cells[1].Value);
+            listTextBox[1].Text = Convert.ToString(_dataGridView.CurrentRow.Cells[2].Value);
+            listTextBox[2].Text = Convert.ToString(_dataGridView.CurrentRow.Cells[3].Value);
+            listTextBox[3].Text = Convert.ToString(_dataGridView.CurrentRow.Cells[4].Value);
+            try
+            {
+                byte[] arrayImage = (byte[])_dataGridView.CurrentRow.Cells[5].Value;
+                image.Image = uploadImage.ByteArrayToImage(arrayImage);
+            }
+            catch (Exception)
+            {
+                image.Image = _originalImage;
+            }
+
+
+        }
 
     }
 }

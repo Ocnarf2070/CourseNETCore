@@ -161,5 +161,17 @@ namespace Studients
         {
             studient.PageRegister();
         }
+
+        private void dataGridViewStudient_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (dataGridViewStudient.Rows.Count != 0)
+                studient.GetStudient();
+        }
+
+        private void dataGridViewStudient_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (dataGridViewStudient.Rows.Count != 0)
+                studient.GetStudient();
+        }
     }
 }
